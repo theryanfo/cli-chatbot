@@ -13,24 +13,24 @@ async function handleInput(input) {
       
       // ACTIVITY 2 
       // initialize the gemini model as "model" and use the model to generate Content 
-  
+
       // Generate content based on the user's input
       // save the model's response in the variable "response"
-      const text = response.text(); 
-  
-      console.log(text);
-      // Activity 3 
+      // print the model's reponse
+
+
+      // Activity 1 
       // re prompt the interface to get the next input from the user 
       // hint: you might want to use .prompt()
       // hint 2: you will also have to prompt outside of this function to initialize chat
     } catch (error) {
       console.error('Error processing your input:', error);
     }
-  }
+}
   
 
   
-// ACTIVITY 3
+  // ACTIVITY 1
   userInterface.on("line", (input) => {
      // use the handle input function you wrote here
   });
